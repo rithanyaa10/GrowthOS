@@ -1,0 +1,31 @@
+:root {
+  --bg: #080808;
+
+  --pink: #f5b7d2;
+  --pink-light: #fad7e6;
+
+  --nude: #d6b6a8;
+  --brown: #9d7a6f;
+
+  --text: #f4f1ee;
+  --text-secondary: #b3aaa5;
+}
+
+body {
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(245,183,210,0.10),
+      transparent 35%
+    ),
+    radial-gradient(
+      circle at bottom right,
+      rgba(214,182,168,0.08),
+      transparent 35%
+    ),
+    #080808;
+
+  color: var(--text);
+
+  min-height: 100vh;
+}

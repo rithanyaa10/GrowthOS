@@ -2,10 +2,10 @@ import Sidebar from "./Sidebar";
 
 function PageLayout({ children }) {
   return (
-    <div className="bg-black min-h-screen text-white">
+    <div className="min-h-screen text-white relative overflow-hidden">
       <Sidebar />
 
-      <div className="ml-64 p-8 max-w-[1400px]">
+      <div className="ml-72 p-10 max-w-[1600px]">
         {children}
       </div>
     </div>

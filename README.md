@@ -1,26 +1,16 @@
-GrowthOS – AI-Powered Business Growth Operating System
+# React + Vite
 
-OVERVIEW:
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
--> GrowthOS is an AI-powered Business Growth Operating System that uses multi-agent collaboration and intelligent insights to assist startups and small-to-medium organizations in making more informed strategic decisions.
+Currently, two official plugins are available:
 
--> By merging several AI agents in charge of various business sectors, including marketing, sales, finance, operations and strategy, the platform functions as a virtual executive team. 
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
--> Companies can connect with an AI Copilot for decision support, monitor KPIs, integrate data sources, onboard employees and get AI-driven recommendations.
+## React Compiler
 
-PROBLEM STATEMENT: 
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
--> Many companies gather a lot of operational and financial data, but often have trouble turning it into useful insights. 
+## Expanding the ESLint configuration
 
--> GrowthOS tackles this issue by offering a sophisticated platform that evaluates company data and produces tailored suggestions to enhance operational effectiveness and business expansion.
-
-ARCHITECTURE:
-
-<img width="2000" height="2000" alt="arch jpg" src="https://github.com/user-attachments/assets/90a0380e-b100-48b7-9335-ed925c2e6401" />
-
-
-
-The GrowthOS architecture is a modular, AI-powered system that helps companies with everything from data integration and onboarding to intelligent analysis, multi-agent cooperation, strategic decision-making and performance tracking.
-
-
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
